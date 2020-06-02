@@ -14,6 +14,27 @@ public class Student {
     private String name;
     
     private String email;
+    
+    private int yob;
+
+    /**
+     * Get the value of yob
+     *
+     * @return the value of yob
+     */
+    public int getYob() {
+        return yob;
+    }
+
+    /**
+     * Set the value of yob
+     *
+     * @param yob new value of yob
+     */
+    public void setYob(int yob) {
+        this.yob = yob;
+    }
+
 
     /**
      * Get the value of email
