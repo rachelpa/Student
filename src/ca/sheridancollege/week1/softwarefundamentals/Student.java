@@ -14,6 +14,27 @@ public class Student {
     private String name;
   
     private String email;
+    
+    private String Hours;
+
+    /**
+     * Get the value of Hours
+     *
+     * @return the value of Hours
+     */
+    public String getHours() {
+        return Hours;
+    }
+
+    /**
+     * Set the value of Hours
+     *
+     * @param Hours new value of Hours
+     */
+    public void setHours(String Hours) {
+        this.Hours = Hours;
+    }
+
 
     /**
      * Get the value of email
